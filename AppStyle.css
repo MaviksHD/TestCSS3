@@ -1,0 +1,324 @@
+html {
+    background-color: rgb(216, 216, 216);
+}
+body {
+    margin: 0;
+    min-width: 1000px;
+}
+.top_hat {
+    background-color: rgba(0, 0, 0, 0.05);
+    min-width: 772px;
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+}
+.row {
+    display: table-row;
+}
+.plusik a {
+    width: 32px;
+    height: 111px;
+    display: table-cell;
+    background: rgba(43, 48, 56, 0.97) url("cross.png") no-repeat center;
+}
+.top_photo {
+    display: table-cell;
+}
+.promo_cars {
+    width: 185px;
+    height: 40px;
+    padding: 7px 0 2px 5px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0) 100%);
+    position: absolute;
+    top: -50px;
+    font-family: Arial, serif;
+    color: white;
+    font-size: 12px;
+    transition-property: top;
+    transition-duration: 0.3s;
+}
+
+.top_img {
+    vertical-align: bottom;
+}
+.item {
+    display: inline-block;
+}
+.item:hover .promo_cars {
+    top: 0;
+}
+.main_body {
+    background-color: rgb(232, 232, 232);
+    max-width: 982px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.navigation {
+    background-color: black;
+}
+.drive2 {
+    display: inline-block;
+}
+.drive2 a {
+    display: inline-block;
+    background-color: #cc0028;
+    font-weight: bold;
+    color: white;
+    padding: 15px;
+    font-family: Arial, serif;
+}
+.item2 {
+    display: inline-block;
+    position: relative;
+   }
+.item2 a {
+    display: inline-block;
+    font-family: Arial, serif;
+    font-weight: bold;
+    transition-property: background-color, color;
+    transition-duration: .1s;
+    color: #B1B1B1;
+    padding: 15px 10px 15px 10px;
+}
+.item2 a:hover {
+    background-color: #2f2f2f;
+    color: white;
+}
+.vyp_spisok {
+    position: absolute;
+    left: 0;
+    opacity: 0;
+}
+
+.item2:hover .vyp_spisok {
+    opacity: 1;
+}
+
+.bt_spisok a {
+    display: inline-block;
+    background-color: #36434A;
+    color: #e8e8e8;
+    font-family: Arial, serif;
+    font-weight: bold;
+    font-size: 12px;
+    width: 100px;
+    padding: 10px 70px 10px 10px;
+}
+.bt_spisok a:hover {
+    background-color: #747d80;
+}
+.ring {
+    display: inline-block;
+}
+.ring a {
+    display: inline-block;
+    height: 48px;
+    width: 42px;
+    vertical-align: bottom;
+    background-image: url("ring.png");
+    transition-property: background-color;
+    transition-duration: 0.1s;
+}
+.ring a:hover {
+    background-color: #2f2f2f;
+    background-image: url("ring2.png");
+}
+.lens {
+    display: inline-block;
+}
+.lens a {
+    display: inline-block;
+    height: 48px;
+    width: 42px;
+    vertical-align: bottom;
+    background-image: url("lens.png");
+    transition-property: background-color;
+    transition-duration: 0.1s;
+}
+.lens a:hover {
+    background-color: #2f2f2f;
+    background-image: url("lens2.png");
+}
+.sett {
+    display: inline-block;
+}
+.sett a {
+    display: inline-block;
+    height: 48px;
+    width: 42px;
+    vertical-align: bottom;
+    background-image: url("cogwheel.png");
+    transition-property: background-color;
+    transition-duration: 0.1s;
+}
+.sett a:hover {
+    background-color: #2f2f2f;
+    background-image: url("cogwheel2.png");
+}
+.item1 {
+    display: inline-block;
+    font-family: Arial, serif;
+    color: #b1b1b1;
+    font-weight: bold;
+    transition-property: background-color, color;
+    transition-duration: .1s;
+    padding: 10px 10px 8px;
+}
+.item1:hover {
+    background-color: #2f2f2f;
+    color: white;
+}
+.my_pic {
+    vertical-align: middle;
+    padding-right: 10px;
+}
+.other_buttons {
+    display: inline-block;
+}
+.other_buttons a {
+    display: inline-block;
+    font-family: Arial, serif;
+    color: #b1b1b1;
+    font-weight: bold;
+    padding: 15px 10px 15px 10px;
+    transition-property: background-color, color;
+    transition-duration: .1s;
+}
+.other_buttons a:hover  {
+    background-color: #2f2f2f;
+    color: white;
+}
+a {
+    text-decoration: none;
+}
+.left_buttons {
+    display: inline-block;
+    margin-right: 216px;
+}
+.right_buttons {
+    display: inline-block;
+    vertical-align: bottom;
+}
+.main_column {
+    padding: 20px 0 20px 20px;
+}
+.content {
+    display: inline-block;
+}
+.left_column {
+    display: inline-block;
+}
+.right_column {
+    display: inline-block;
+    float: right;
+    width: 300px;
+}
+.header_right_column {
+    font-family: Arial, serif;
+    color: #3A3A3A;
+    font-size: 20px;
+    padding: 0 0 15px 6px;
+}
+.spisok {
+    margin-bottom: 35px;
+}
+.spisok_right {
+    padding: 7px 157px 7px 7px;
+    transition-property: background-color;
+    transition-duration: 0.1s;
+}
+.spisok_right a {
+    font-family: Arial, serif;
+    font-size: 14px;
+    color: #035e97;
+}
+.spisok_right:hover {
+    background-color: #ffffff;
+}
+.blok1 a {
+    color: black;
+}
+.blok1 {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 27px;
+    margin: 15px 0;
+    text-decoration: none;
+}
+.blok1 a:hover {
+    text-decoration: underline;
+}
+.car1 {
+    display: inline-block;
+}
+.common_post {
+    width: 660px;
+    height: 350px;
+}
+.vertical_post {
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+}
+.pic_post {
+    margin: 10px 0 5px 0;
+}
+.header_post a {
+    font-size: 18px;
+    font-family: Arial, serif;
+    color: #094585;
+    margin-bottom: 10px;
+}
+.header_post:hover {
+    text-decoration: underline;
+}
+.caption_post {
+    font-size: 13px;
+    font-family: Arial, serif;
+    color: #434343;
+}
+.caption_post_more {
+    display: block;
+    font-size: 13px;
+    font-family: Arial, serif;
+    color: #0059a4;
+    margin-top: 5px;
+}
+.caption_post_more:hover {
+    text-decoration: underline;
+}
+.fly {
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    top: -999px;
+    background-color: #6a6764;
+    color: white;
+    font-family: Arial, serif;
+    font-size: 12px;
+    padding: 10px;
+    margin-top: 10px;
+    opacity: 0;
+    border-radius: 5px;
+    transition-delay: 0.5s;
+    transition-property: opacity;
+}
+
+.plusik {
+    position: relative;
+}
+.plusik:hover .fly {
+    left: -10px;
+    top: 110px;
+    opacity: 1;
+}
+.fly:after {
+    content: "";
+    border: 9px solid;
+    border-color: transparent transparent #6a6764 transparent;
+    position: absolute;
+    top: -18px;
+    left: 17px;
+}
